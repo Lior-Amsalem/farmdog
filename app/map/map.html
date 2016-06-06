@@ -1,0 +1,18 @@
+<div class="map-wrapper" ng-controller="MapCtrl as vm">
+
+	<ng-map zoom="11" center="[-82.461748, 29.558041]" street-view-control="false" map-type-control-options="{mapTypeIds: []}">
+	    <shape ng-repeat="polygon in vm.paths" name="polygon"
+	    	on-mouseover="vm.mouseover()"
+	    	on-mouseout="vm.mouseout()"
+	    	on-click="vm.set_panel_mode(true)"
+			path={{polygon}}
+			stroke-color="#d3641f"
+			stroke-opacity="0.5"
+			stroke-weight="2"
+			fill-color="#F77723"
+			fill-opacity="0.9">
+		</shape><!-- We can define each polygon with it's own colors/style -->
+	</ng-map>
+
+	<div panel></div>
+</div>

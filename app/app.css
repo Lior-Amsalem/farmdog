@@ -1,0 +1,32 @@
+.map-wrapper {
+    position: relative;
+}
+
+.map-wrapper .panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 7px 0px #cbcbcb;
+}
+
+.map-wrapper header {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.panel h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    display: inline-block;
+}
+
+.panel .close {
+    cursor: pointer;
+    float: right;
+}
+
+.panel ul {
+    padding-left: 20px;
+}

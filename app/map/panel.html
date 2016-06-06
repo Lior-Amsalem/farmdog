@@ -1,0 +1,11 @@
+<div class="panel" ng-show="vm.is_panel_visible">
+	<header>
+		<h2>Polygon Data</h2>
+		<span class="close" ng-click="vm.set_panel_mode(false)">X</span>
+	</header>
+	<section>
+		<ul>
+			<li ng-repeat="polygon in vm.current_polygon_panel_data.j">{{polygon}}</li>
+		</ul>
+	</section>
+</div>
