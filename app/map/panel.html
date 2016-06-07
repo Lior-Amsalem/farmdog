@@ -5,7 +5,10 @@
 	</header>
 	<section>
 		<ul>
-			<li ng-repeat="polygon in vm.current_polygon_panel_data.j">{{polygon}}</li>
+			<li ng-repeat="polygon in vm.current_polygon_panel_data.j">
+			<strong>Lat:</strong> {{polygon.lat() | number:2}} <br/>
+			<strong>Lng:</strong> {{polygon.lng() | number:2}}
+			</li>
 		</ul>
 	</section>
 </div>

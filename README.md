@@ -19,10 +19,17 @@ This application based on angular seed.
 
 # Files
 `map/map.html` contain the main map template.
+
 `map/map.js` contain controller and main js files.
+
 `map/panel-directive.js` is the panel directive.
+
 `map/panel.html` have all the panel html.
+
 `map/servicer.js` holds the route that we want to get the data from - currently just plain stub object.
+
 `app.css` holds our application css (for large application I prefer sass/less)
+
 `app.js` holds our main application javascript.
+
 `index.html` is the application main template, imports all relevant files.

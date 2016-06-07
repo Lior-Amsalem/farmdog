@@ -3,6 +3,7 @@
 }
 
 .map-wrapper .panel {
+    width: 200px;
     position: absolute;
     top: 20px;
     right: 20px;

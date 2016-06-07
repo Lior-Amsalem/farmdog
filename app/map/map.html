@@ -1,6 +1,6 @@
 <div class="map-wrapper" ng-controller="MapCtrl as vm">
 
-	<ng-map zoom="11" center="[-82.461748, 29.558041]" street-view-control="false" map-type-control-options="{mapTypeIds: []}">
+	<ng-map zoom="13" center="[29.558041, -82.461748]" street-view-control="false">
 	    <shape ng-repeat="polygon in vm.paths" name="polygon"
 	    	on-mouseover="vm.mouseover()"
 	    	on-mouseout="vm.mouseout()"
